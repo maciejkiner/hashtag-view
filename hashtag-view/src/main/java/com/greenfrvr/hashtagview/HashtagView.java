@@ -564,8 +564,8 @@ public class HashtagView extends LinearLayout {
             totalItemsWidth += item.width;
         }
 
-        Collections.sort(data);
-        Collections.sort(widthList, Collections.reverseOrder());
+//        Collections.sort(data);
+//        Collections.sort(widthList, Collections.reverseOrder());
     }
 
     private void wrapItem(ItemData item) {
